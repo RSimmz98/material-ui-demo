@@ -15,10 +15,10 @@ import {
   Switch,
   Container,
 } from "@mui/material";
-import useStyles from "./styles";
-import Copyright from "./footer";
-import Navbar from "./navbar";
-import Main from "./main";
+import useStyles from "../src/styles";
+import Copyright from "./components/footer";
+import Navbar from "./components/navbar";
+import Main from "./components/main";
 
 function App() {
  const [darkMode, setDarkMode] = React.useState(false);
